@@ -1,0 +1,9 @@
+quarkus:
+  kubernetes:
+    ingress:
+      expose: true
+      host: api.my-app.com
+      ingress-class-name: nginx
+    ports:
+      http:
+        path: /
